@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+	<style>
+
+	body{
+		width: 100%;
+		height: 100%;
+	}
+
+	.cabecera{
+		width: 100%;
+		max-width: 1000px;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		border-bottom: 1px solid rgba(6,6,6, .2);
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	}
+
+	h1{
+		font-family: 'Poiret One';
+		font-size: 32x;
+		color: #666;
+		margin-top: 35px;
+	}
+
+
+
+
+
+	@keyframes bunny
+	{
+		0%{
+			left: -50px;
+		}
+		100%{
+			left: 1000px;
+		}
+	}
+
+	@keyframes sombra
+	{
+		0%{
+			background: radial-gradient(#dadada 30%, #fff 70%);
+			width: 90%;
+		}
+		100%{
+			background: radial-gradient(#ececec 30%, #fff 50%);
+			width: 50%;
+		}
+	}
+
+
+
+
+	.bunny{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 50px;
+		position: absolute;
+		top: 30px;
+		left: -60px;
+		z-index: -1;
+	}
+
+
+	.bunny-img{
+			width: 100%;
+		}
+
+
+
+	.sombra{
+		width: 80%;
+		height: 4px;
+		background: radial-gradient(#dadada 30%, #fff 60%);
+	}
+
+
+
+	.bunny-animation{
+		animation-name: bunny;
+		animation-duration: 8s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+
+	.sombra-animation{
+		animation-name: sombra;
+		animation-duration: .4s;
+		animation-iteration-count: infinite;
+	}
+	
+
+	</style>
+</head>
+<body>
+
+
+
+
+
+	<div class="cabecera">
+		
+		<figure class="bunny bunny-animation">
+			<img class="bunny-img" src="bunny.gif" alt="">
+			<div class="sombra sombra-animation"></div>
+		</figure>
+
+		<h1>Lorem Ipsum</h1>
+
+	</div>
+
+	
+
+
+
+	
+</body>
+</html>
