@@ -6,80 +6,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
-	<style>
-
-	*{box-sizing: border-box;}
-
-
-	body{
-		width: 100%;
-		height: 100%;
-	}
-
-	.cabecera{
-		width: 100%;
-		max-width: 1000px;
-		height: 100px;
-		margin-left: auto;
-		margin-right: auto;
-		border-bottom: 1px solid rgba(6,6,6, .2);
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		overflow: hidden;
-	}
-
-	h1{
-		font-family: 'Poiret One';
-		font-size: 32x;
-		color: #666;
-		margin-top: 55px;
-	}
-
-
-
-
-
-	@keyframes bunny
-	{
-		0%{
-			left: -50px;
-		}
-		100%{
-			left: 1000px;
-		}
-	}
-
-
-
-	.bunny{
-		width: 50px;
-		height: 50px;
-		top: 35px;
-		z-index: -1;
-		position: absolute;
-		animation-name: bunny;
-		animation-duration: 8s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-	}
-
-
-	.bunny-img{
-		width: 100%;
-	}
-
-
-
-	
-	
-
-	
-	
-
-	</style>
 </head>
 <body>
 
@@ -89,7 +17,7 @@
 
 	<div class="cabecera">
 		
-		<figure class="bunny">		
+		<figure id="bunny">		
 
 			<img class="bunny-img" src="bunny.gif" alt="">
 	
@@ -103,6 +31,6 @@
 
 
 
-	
+<script src="javascript.js"></script>
 </body>
 </html>
