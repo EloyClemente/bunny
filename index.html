@@ -52,56 +52,14 @@
 		}
 	}
 
-	@keyframes sombra
-	{
-		0%{
-			background: radial-gradient(#dadada 30%, #fff 70%);
-			width: 90%;
-		}
-		100%{
-			background: radial-gradient(#ececec 30%, #fff 50%);
-			width: 50%;
-		}
-	}
-
-
 
 
 	.bunny{
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		border: 1px solid white;
 		width: 50px;
-		height: 38px;
-		background-image: url(bunny-1.gif);
-		background-size: 102%;
-		background-position: center;
+		height: 50px;
 		top: 35px;
 		z-index: -1;
 		position: absolute;
-	}
-
-
-
-
-
-
-	.sombra{
-		width: 50px;
-		height: 3px;
-		background: radial-gradient(#dadada 30%, #fff 60%);
-		margin-top: 39px;
-		left: 10px;
-	}
-
-	
-
-
-
-	.bunny-animation{
 		animation-name: bunny;
 		animation-duration: 8s;
 		animation-iteration-count: infinite;
@@ -109,11 +67,14 @@
 	}
 
 
-	.sombra-animation{
-		animation-name: sombra;
-		animation-duration: .4s;
-		animation-iteration-count: infinite;
+	.bunny-img{
+		width: 100%;
 	}
+
+
+
+	
+	
 
 	
 	
@@ -128,10 +89,9 @@
 
 	<div class="cabecera">
 		
-		<figure class="bunny bunny-animation">		
+		<figure class="bunny">		
 
-			<!-- <img class="bunny-img" src="bunny.gif" alt=""> -->
-			<div class="sombra sombra-animation"></div>
+			<img class="bunny-img" src="bunny.gif" alt="">
 	
 		</figure>
 
