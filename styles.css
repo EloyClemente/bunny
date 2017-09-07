@@ -44,30 +44,30 @@
 	@keyframes bunny_middle
 	{
 		0%{
-			left: 1000px;
+			left: 1100px;
 		}
 		100%{
-			left: -100px;
+			left: -200px;
 		}
 	}
 
 	@keyframes bunny_near
 	{
 		0%{
-			left: -200px;
+			left: -300px;
 		}
 		100%{
-			left: 1000px;
+			left: 1100px;
 		}
 	}
 
 	@keyframes bunny_near_plus
 	{
 		0%{
-			left: 1000px;
+			left: 1100px;
 		}
 		100%{
-			left: -200px;
+			left: -300px;
 		}
 	}
 
