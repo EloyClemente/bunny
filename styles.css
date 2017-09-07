@@ -96,7 +96,7 @@
 		position: absolute;
 		transform: scaleX(-1);
 		animation-name: bunny_middle;
-		animation-duration: 4.5s;
+		animation-duration: 3.5s;
 		animation-iteration-count: 1;
 		animation-timing-function: linear;
 	}
